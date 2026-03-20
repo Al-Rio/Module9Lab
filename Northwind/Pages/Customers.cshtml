@@ -1,0 +1,32 @@
+﻿@page 
+<!--Defines this file as a Razor Page that can handle HTTP requests directly -->
+@model CustomersModel // Specifies the model type that provides data and functionality
+
+@{
+    // C# code block where server-side code runs
+    ViewData["Title"] = "Northwind Customers"; // Sets the page title
+}
+
+<!-- The AT symbol lets C# expressions be evaluated and inserted into the HTML -->
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+   <thead><tr>
+      <th>Customer ID</th>
+      <th>Company Name</th>
+      <th>Contact Name</th>
+      <th>Country</th>
+   </tr></thead>
+   <tbody>
+      <!-- Loops through customers and adds each row to the table -->
+      @foreach (var customer in Model.Customers)
+      {
+         <tr>
+            <td>@customer.CustomerID</td>
+            <td>@customer.CompanyName</td>
+            <td>@customer.ContactName</td>
+            <td>@customer.Country</td>
+         </tr>
+      }
+   </tbody>
+</table>
