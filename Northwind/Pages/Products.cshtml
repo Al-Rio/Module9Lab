@@ -1,0 +1,30 @@
+﻿@page
+@model ProductsModel
+@{
+    //Create a Page Title 
+    ViewData["Title"] = "Northwind Products";
+}
+<!--page title-->
+<h1>@ViewData["Title"]</h1>
+<!-- Product table with the product name, category and unit price.-->
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Unit Price</th>
+        </tr>
+    </thead>
+
+    <!--A Foreach loop to display the products from the Products Model-->
+    <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td>@product.ProductName</td>
+                <td>@product.CategoryName</td>
+                <td>@product.UnitPrice.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>

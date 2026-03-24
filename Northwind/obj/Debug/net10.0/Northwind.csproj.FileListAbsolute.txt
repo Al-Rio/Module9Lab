@@ -29,7 +29,6 @@
 /workspaces/Module9Lab/Northwind/obj/Debug/net10.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /workspaces/Module9Lab/Northwind/obj/Debug/net10.0/scopedcss/bundle/Northwind.styles.css
 /workspaces/Module9Lab/Northwind/obj/Debug/net10.0/scopedcss/projectbundle/Northwind.bundle.scp.css
-/workspaces/Module9Lab/Northwind/obj/Debug/net10.0/compressed/fz6sikxop1-{0}-lugek5hnai-lugek5hnai.gz
 /workspaces/Module9Lab/Northwind/obj/Debug/net10.0/compressed/qnpqx9rjid-{0}-61n19gt1b8-61n19gt1b8.gz
 /workspaces/Module9Lab/Northwind/obj/Debug/net10.0/compressed/ozxjlut340-{0}-fr7q2aak1r-fr7q2aak1r.gz
 /workspaces/Module9Lab/Northwind/obj/Debug/net10.0/compressed/4bzdmjp9x4-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -104,3 +103,4 @@
 /workspaces/Module9Lab/Northwind/obj/Debug/net10.0/Northwind.pdb
 /workspaces/Module9Lab/Northwind/obj/Debug/net10.0/Northwind.genruntimeconfig.cache
 /workspaces/Module9Lab/Northwind/obj/Debug/net10.0/ref/Northwind.dll
+/workspaces/Module9Lab/Northwind/obj/Debug/net10.0/compressed/fz6sikxop1-{0}-ra95dpgln8-ra95dpgln8.gz
